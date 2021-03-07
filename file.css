@@ -1,0 +1,99 @@
+body {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  background-color: #fed6e3;
+}
+
+div {
+  padding: 2px 30px;
+  border-radius: 5px;
+}
+
+input {
+  margin: 10px 40px;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+img {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+footer {
+  margin-top: 20px;
+  bottom: 0;
+  font-family: monospace;
+  text-align: center;
+  font-size: 14px;
+}
+
+.author {
+  font-weight: bold;
+  color: rgb(113, 189, 189);
+  text-decoration: none;
+}
+
+.author:hover {
+  color: rgb(96, 96, 211);
+  text-decoration: underline;
+}
+
+.line {
+  font-family: none;
+}
+
+.enter {
+  margin-left: 0;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 50px 0px;
+  box-shadow: 0 2px 3px black;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  max-width: 900px;
+}
+
+.days {
+  margin-top: 20px;
+  border: 3px solid #a8edea;
+}
+
+.day {
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.weather {
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 3px black;
+  background-color: white;
+}
+
+.city {
+  font-size: 36px;
+}
+
+.wet {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.tmp {
+  text-align: center;
+  font-size: 76px;
+}
+
+.link {
+  color: rgb(113, 189, 189);
+  font-size: 42px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: rgb(96, 96, 211);
+}

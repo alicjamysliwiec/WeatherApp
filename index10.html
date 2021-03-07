@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather App</title>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="file.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <form>
+          <input class = "enter" type="text" placeholder="Enter a city" />
+          <input type="submit" value="Search"> 
+          <input class="current" type="button" value="Current">
+      </form>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row city">Wroclove</div>
+        <div class="row">
+          <div class="col day">Saturday</div>
+          <div class="col time">13.30</div>
+        </div>
+        <div class="row wet">Clouds</div>
+      </div>
+      <div class="col align-self-center tmp">
+        <span class="temperature">
+          19
+        </span> 
+        <a href="#" id="c" class="link">
+          °C 
+        </a>
+        <span class = "line">
+        |
+        </span>
+        <a href="#" id="f" class="link">
+          °F
+        </a>         
+      </div>
+      <div class="col">
+        <div class="row pres">Pressure: 1020 hpa</div>
+        <div class="row hum">Humidity: 0 %</div>
+        <div class="row wind">Wind: 7 km/h</div>
+      </div>
+    </div>
+    <div class="weather">
+      <div class="days">
+        <div class="row">
+          <div class="col">Monday</div>
+          <div class="col">Tuesday</div>
+          <div class="col">Wednesday</div>
+          <div class="col">Thursday</div>
+          <div class="col">Friday</div>
+          <div class="col">Saturday</div>
+        </div>
+      </div>
+      <div class="images">
+        <div class="row">
+          <div class="col"><img src="snow.jpeg" alt="snow" /></div>
+          <div class="col"><img src="snow.jpeg" alt="snow" /></div>
+          <div class="col"><img src="Rain.jpeg" alt="rain" /></div>
+          <div class="col"><img src="snow.jpeg" alt="snow" /></div>
+          <div class="col">
+            <img src="Snow and sun.jpeg" alt="snownsun" />
+          </div>
+          <div class="col"><img src="Rain.jpeg" alt="rain" /></div>
+        </div>
+      </div>
+      <div class="temperature">
+        <div class="row">
+          <div class="col">-5°C</div>
+          <div class="col">-10°C</div>
+          <div class="col">0°C</div>
+          <div class="col">-2°C</div>
+          <div class="col">-3°C</div>
+          <div class="col">1°C</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <footer>
+      Coded by
+      <a href="https://www.linkedin.com/in/alicja-my%C5%9Bliwiec-b8b160201/" class="author" target="_blank">
+      Alicja Myśliwiec
+      </a>
+    </footer>
+  </div>
+  </div>
+  <script src="java.js"></script>
+</body>
+
+</html>
