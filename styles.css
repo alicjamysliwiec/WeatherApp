@@ -39,6 +39,16 @@ footer {
   text-decoration: underline;
 }
 
+.source {
+  text-decoration: none;
+  color: black;
+}
+
+.source:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
 .line {
   font-family: none;
 }
