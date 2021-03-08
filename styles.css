@@ -41,12 +41,12 @@ footer {
 
 .source {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 
 .source:hover {
   text-decoration: underline;
-  color: grey;
+  color: rgb(126, 126, 216);
 }
 
 .line {
