@@ -45,6 +45,7 @@ footer {
 }
 
 .source:hover {
+  font-weight: bold;
   color: rgb(114, 114, 209);
 }
 
