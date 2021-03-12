@@ -75,8 +75,6 @@ let images = [...image];
 let temperature = document.getElementsByClassName("temp");
 let temperatures = [...temperature];
 
-console.log(response);
-
 for(var i=0;i<hours.length;i++){
   hours[i].innerHTML = response.data.list[i].dt_txt.substr(11,5);
   temperatures[i].innerHTML = `${Math.round(response.data.list[i].main.temp)}<small>°C</small>`;
@@ -85,9 +83,6 @@ for(var i=0;i<hours.length;i++){
   images[i].setAttribute("src", `https://openweathermap.org/img/wn/${icon}@2x.png`);
   images[i].setAttribute("alt", description);
 }
-
-
-
 
 }
 
