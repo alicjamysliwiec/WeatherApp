@@ -10,9 +10,13 @@ function answer(response){
   degrees.innerHTML = Math.round(temp);     
   degreesC.addEventListener("click", function(){
     degrees.innerHTML = Math.round(temp);
+    degreesC.style.color = "rgb(114, 114, 209)";
+    degreesF.style.color = "black";
   })
   degreesF.addEventListener("click", function(){
     degrees.innerHTML = Math.round(temp*1.8 + 32);
+    degreesF.style.color = "rgb(114, 114, 209)";
+    degreesC.style.color = "black";
   })
 
   let city = document.querySelector(".city");
