@@ -34,6 +34,13 @@ function answer(response){
   let pressure = response.data.main.pressure;
   let press = document.querySelector(".pres");
   press.innerHTML = `Pressure: ${pressure} hPa`;
+
+  let icon = response.data.weather[0].icon;
+  console.log(icon);
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute("src", `https://openweathermap.org/img/wn/${icon}@2x.png`);
+  iconElement.setAttribute("alt", description);
+
 }
 
 function setDate(){

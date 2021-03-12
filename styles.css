@@ -10,7 +10,7 @@ div {
 }
 
 input {
-  margin: 10px 40px;
+  margin: 10px 55px;
   border-radius: 5px;
   padding: 10px 30px;
 }
@@ -62,7 +62,7 @@ footer {
   padding: 50px 0px;
   box-shadow: 0 2px 3px black;
   background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 .days {
@@ -85,9 +85,11 @@ footer {
 
 .city {
   font-size: 36px;
+  text-align: left;
 }
 
 .wet {
+  text-align: center;
   text-transform: capitalize;
   font-size: 18px;
 }
